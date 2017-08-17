@@ -14,6 +14,7 @@ from ..preprocessors import (
     SaveCells,
     CheckCellMetadata,
     ClearOutput,
+    ObfuscateTests,
     ClearHiddenTests,
 )
 
@@ -60,6 +61,7 @@ class Assign(BaseConverter):
         ComputeChecksums,
         SaveCells,
         ClearHiddenTests,
+        ObfuscateTests,
         ComputeChecksums,
         CheckCellMetadata,
     ])
